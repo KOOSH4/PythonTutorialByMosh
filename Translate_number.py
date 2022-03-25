@@ -13,3 +13,10 @@ Numbers = {
 user_Input = input("Enter a number (at least 3 digit): ")
 for X in str(user_Input):
     print(Numbers[X])
+
+#solution 2
+numberInWord = ""
+space = " "
+for Y in str(user_Input):
+    numberInWord = numberInWord + space + Numbers[Y]
+print(numberInWord)
